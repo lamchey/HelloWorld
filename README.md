@@ -1,4 +1,4 @@
-# OpenClash_cfg
+# OpenClash
 
 OpenClash订阅转换模板
 
