@@ -1,3 +1,4 @@
+
 # NAME: Custom rules
 # AUTHOR: lamchey
 # REPO: https://github.com/lamchey/OpenClash/Rules
@@ -6,3 +7,5 @@
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,momoyu.cc
 DOMAIN-SUFFIX,global.synologydownload.com
+DOMAIN-SUFFIX,api.codelife.cc
+DOMAIN-SUFFIX,iobit.com
