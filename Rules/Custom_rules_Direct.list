@@ -4,6 +4,7 @@
 # REPO: https://github.com/lamchey/OpenClash/Rules
 # UPDATED: 2024-10-11 15:58:12
 
+DOMAIN-SUFFIX,11111111111111111111111.com
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,momoyu.cc
 DOMAIN-SUFFIX,global.synologydownload.com
