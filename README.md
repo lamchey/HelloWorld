@@ -5,12 +5,9 @@
 ### 主要特性
 - 提供 Clash Meta 的远程配置，便于灵活设置网络代理和规则。
 - 覆盖 Mihomo 内核的覆写脚本，支持高级定制。
-- 包含去广告和自定义代理规则，减少广告干扰并增强隐私保护。
-- 兼容多种网络环境，适用于个人和开发者用户。
+- 包含去广告和自定义代理规则。
   
 ## **自用 Clash Meta/Mihomo 内核配置及脚本**
-
-以下是项目中的主要资源：
 
 - [Clash 远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
 - [Clash 远程配置文件 - 去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
@@ -21,7 +18,7 @@
 
 ## **感谢**
 
-以下排名不分先后
+以下排名不分先后：
 
 - [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
 
