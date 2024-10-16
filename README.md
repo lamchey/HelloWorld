@@ -10,7 +10,7 @@
 ## **自用 Clash Meta/Mihomo 内核配置及脚本**
 
 - [Clash 远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
-- [Clash 远程配置文件 - 去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
+- [Clash 远程配置文件含去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
 - [Mihomo-Party 覆写脚本](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/JavaScript/JavaScript.js)
 - [Mihomo-Party 覆写配置](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/YAML/Extend.yaml)
 
