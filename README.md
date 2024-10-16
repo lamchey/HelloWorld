@@ -1,4 +1,4 @@
-自用Clash meta/Mihomo内核配置、脚本
+自用Clash Meta/Mihomo内核配置及脚本
 
 感谢
 
