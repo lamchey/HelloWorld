@@ -1,6 +1,6 @@
 # HelloWorld
 
-这是一个关于 **Clash Meta** 和 **Mihomo** 内核的配置与脚本项目。
+这是一个关于 **Clash Meta** / **Mihomo** 内核的配置与脚本项目。
 
 ### 主要特性
 - 提供 Clash Meta 的远程配置。
