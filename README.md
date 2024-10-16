@@ -1,24 +1,15 @@
-## 目录
-- [项目介绍](#项目介绍)
-- [安装](#安装)
-- [使用](#使用)
-- [贡献](#贡献)
-- [许可证](#许可证)
-
-
 ## **自用Clash Meta/Mihomo内核配置及脚本**
+- [Clash远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
 
-[Clash远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
+- [Clash远程配置文件-去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
 
-[Clash远程配置文件-去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
+- [Mihomo-Party覆写脚本](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/JavaScript/JavaScript.js)
 
-[Mihomo-Party覆写脚本](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/JavaScript/JavaScript.js)
+- [Mihomo-Party覆写配置文件](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/YAML/Extend.yaml)
 
-[Mihomo-Party覆写配置文件](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/YAML/Extend.yaml)
+- [自用直连规则](https://github.com/lamchey/HelloWorld/blob/main/Rules/Direct.list)
 
-[自用直连规则](https://github.com/lamchey/HelloWorld/blob/main/Rules/Direct.list)
-
-[自用代理规则](https://github.com/lamchey/HelloWorld/blob/main/Rules/Proxy.list)
+- [自用代理规则](https://github.com/lamchey/HelloWorld/blob/main/Rules/Proxy.list)
 
 
 ## **感谢**
