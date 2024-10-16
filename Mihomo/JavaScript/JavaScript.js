@@ -1,7 +1,7 @@
 // Mihomo Party覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：202410151704
+// 时间：2024-10-16-21-14
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -191,7 +191,7 @@ function main(config) {
   }
   config["rule-providers"] = Object.assign(config["rule-providers"], {
     Custom_rules_Direct: {
-      url: "https://ghp.ci/https://raw.githubusercontent.com/lamchey/HelloWorld/refs/heads/main/Clash/Rules/Direct.list",
+      url: "https://ghp.ci/https://raw.githubusercontent.com/lamchey/HelloWorld/refs/heads/main/Rules/Direct.list",
       path: "./ruleset/Custom_rules_Direct.list",
       behavior: "classical",
       interval: 86400,
@@ -406,7 +406,6 @@ function main(config) {
     "RULE-SET,BT_Download,🎯 全球直连",
     "RULE-SET,GoogleCN,🎯 全球直连",
     "RULE-SET,ChinaDomain,🎯 全球直连",
-    
 	  
     //自定义代理规则
     "DOMAIN-SUFFIX,oyunfor.com,🇹🇷 土耳其节点",
