@@ -13,8 +13,6 @@
 - [Clash 远程配置文件 - 去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
 - [Mihomo-Party 覆写脚本](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/JavaScript/JavaScript.js)
 - [Mihomo-Party 覆写配置文件](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/YAML/Extend.yaml)
-- [自用直连规则](https://github.com/lamchey/HelloWorld/blob/main/Rules/Direct.list)
-- [自用代理规则](https://github.com/lamchey/HelloWorld/blob/main/Rules/Proxy.list)
 
 ## **感谢**
 
