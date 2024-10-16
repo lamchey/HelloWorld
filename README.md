@@ -1,5 +1,9 @@
 自用Clash Meta/Mihomo内核配置及脚本
 
+[#Clash远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
+
+
+
 感谢
 
 以下排名不分先后
