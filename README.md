@@ -1,6 +1,8 @@
 自用Clash Meta/Mihomo内核配置及脚本
 
-[#Clash远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
+[Clash远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
+
+[Clash远程配置文件-去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
 
 
 
