@@ -191,7 +191,7 @@ function main(config) {
   }
   config["rule-providers"] = Object.assign(config["rule-providers"], {
     Custom_rules_Direct: {
-      url: "https://ghp.ci/https://raw.githubusercontent.com/lamchey/OpenClash/refs/heads/main/Rules/Custom_rules_Direct.list",
+      url: "https://ghp.ci/https://raw.githubusercontent.com/lamchey/HelloWorld/refs/heads/main/Clash/Rules/Direct.list",
       path: "./ruleset/Custom_rules_Direct.list",
       behavior: "classical",
       interval: 86400,
