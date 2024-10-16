@@ -1,3 +1,7 @@
+# HelloWorld
+这是一个关于Clash Meta/mihomo内核的配置、脚本项目。
+
+
 ## **自用Clash Meta/Mihomo内核配置及脚本**
 - [Clash远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
 
