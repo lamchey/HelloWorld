@@ -7,7 +7,7 @@
 - 提供 Mihomo 内核的覆写脚本、配置。
 - 包含去广告和自定义代理规则。
   
-## **自用 Clash Meta/Mihomo 内核配置及脚本**
+## **配置及脚本**
 
 - [远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
 - [远程配置文件含去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
