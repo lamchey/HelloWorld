@@ -9,10 +9,10 @@
   
 ## **配置及脚本**
 
-- [远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config.ini)
-- [远程配置文件含去广告规则](https://github.com/lamchey/HelloWorld/blob/main/Clash/Config/Clash_Config_AdBlock.ini)
-- [覆写脚本](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/JavaScript/JavaScript.js)
-- [覆写配置](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/YAML/Extend.yaml)
+- [远程配置文件](https://github.com/lamchey/HelloWorld/blob/main/Config%20/Clash_Config.ini)
+- [远程配置文件含去广告规则]https://github.com/lamchey/HelloWorld/blob/main/Config%20/Clash_Config_AdBlock.ini)
+- [覆写脚本](https://github.com/lamchey/HelloWorld/blob/main/JavaScript%20/JavaScript.js)
+- [覆写配置](https://github.com/lamchey/HelloWorld/blob/main/YAML%20/Config.yaml)
 
 ## **使用**
 - 远程配置文件可搭配订阅转换工具使用，如[tindy2013/subconverter](https://github.com/tindy2013/subconverter)、[stilleshan/subconverter](https://github.com/stilleshan/subconverter)。
