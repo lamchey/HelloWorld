@@ -15,7 +15,7 @@
 - [覆写配置](https://github.com/lamchey/HelloWorld/blob/main/Mihomo/YAML/Extend.yaml)
 
 ## **使用**
-- 远程配置文件可使用订阅转换工具使用，如[tindy2013/subconverter](https://github.com/tindy2013/subconverter)、[stilleshan/subconverter](https://github.com/stilleshan/subconverter)。
+- 远程配置文件可搭配订阅转换工具使用，如[tindy2013/subconverter](https://github.com/tindy2013/subconverter)、[stilleshan/subconverter](https://github.com/stilleshan/subconverter)。
 - 覆写脚本、配置可在Clash系列软件中引用或者导入，如[mihomo-party-org/mihomo-party](https://github.com/mihomo-party-org/mihomo-party)、[clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)。
 
 ## **感谢**
