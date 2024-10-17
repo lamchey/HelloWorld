@@ -1,7 +1,7 @@
 // Mihomo Party覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-17-11-29
+// 时间：2024-10-17-11-33
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -22,7 +22,7 @@ function main(config) {
       name: "♻️ 自动选择",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
 	  {
       name: "🚀 GitHub",
@@ -126,7 +126,7 @@ function main(config) {
       name: "🇭🇰 香港节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
     {
       "include-all": true,
@@ -135,7 +135,7 @@ function main(config) {
       name: "🇸🇬 新加坡节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -144,7 +144,7 @@ function main(config) {
       name: "🇹🇼 台湾节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
     {
       "include-all": true,
@@ -153,7 +153,7 @@ function main(config) {
       name: "🇯🇵 日本节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
     {
       "include-all": true,
@@ -162,7 +162,7 @@ function main(config) {
       name: "🇺🇸 美国节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -171,7 +171,7 @@ function main(config) {
       name: "🇬🇧 英国节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -180,7 +180,7 @@ function main(config) {
       name: "🇲🇾 马来西亚节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -189,7 +189,7 @@ function main(config) {
       name: "🇹🇷 土耳其节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -198,7 +198,7 @@ function main(config) {
       name: "🇦🇷 阿根廷节点",
       type: "url-test",
       interval: 300,
-	  tolerance: 50,
+	    tolerance: 50,
     }
   ];
   if (!config['rule-providers']) {
