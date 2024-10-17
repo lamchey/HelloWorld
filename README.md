@@ -16,7 +16,7 @@
 
 ## **使用**
 - 远程配置文件可使用自建订阅转换工具使用，如[tindy2013/subconverter](https://github.com/tindy2013/subconverter)。
-- 覆写脚本、配置可直接在[mihomo-party-org/mihomo-party](https://github.com/mihomo-party-org/mihomo-party)中引用。
+- 覆写脚本、配置可直接在[mihomo-party-org/mihomo-party](https://github.com/mihomo-party-org/mihomo-party)中引用或者下载到本地在[clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)中导入。
 
 ## **感谢**
 
