@@ -26,8 +26,6 @@
 
 - [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 
-- [Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules)
-
 - [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD)
 
 - [privacy-protection-tools/dead-horse](https://github.com/privacy-protection-tools/dead-horse)
