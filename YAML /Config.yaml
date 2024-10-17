@@ -1,7 +1,9 @@
 # 覆写配置
 # 作者：https://github.com/lamchey
 # 项目地址：https://github.com/lamchey/HelloWorld
-# 时间：2024-10-17-12-07
+# 时间：2024-10-17-14-21
+proxy-providers:
+  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -516,7 +518,6 @@ rules:
   - "RULE-SET,Custom_rules_Direct,🎯 全球直连"
 
   # 直连规则
-  - "RULE-SET,Custom_rules_Direct,🎯 全球直连"
   - "RULE-SET,Lan,🎯 全球直连"
   - "RULE-SET,Direct,🎯 全球直连"
   - "RULE-SET,PT_Download,🎯 全球直连"
@@ -525,7 +526,7 @@ rules:
   - "RULE-SET,ChinaDomain,🎯 全球直连"
   
     # 自定义代理规则
-  - DOMAIN-SUFFIX,oyunfor.com,🇹🇷 土耳其节点"
+  - "DOMAIN-SUFFIX,oyunfor.com,🇹🇷 土耳其节点"
 
     # 代理规则
   - "RULE-SET,Docker,🐋 Docker"
