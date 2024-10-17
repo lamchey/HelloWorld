@@ -3,8 +3,8 @@
 这是一个关于 **Clash Meta** / **Mihomo** 内核的配置与脚本项目。
 
 ### 主要特性
-- 提供 Clash Meta 的远程配置。
-- 提供 Mihomo 内核的覆写脚本、配置。
+- 提供 Clash Meta/Mihomo 的远程配置文件。
+- 提供 Clash Meta/Mihomo  的覆写脚本、配置。
 - 包含去广告和自定义代理规则。
   
 ## **配置及脚本**
