@@ -8,7 +8,7 @@ function main(config) {
       "exclude-filter": "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
       name: "🚀 节点选择",
       type: "select",
-      proxies: ["🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇬🇧 英国节点", "🇲🇾 马来西亚节点", "🇹🇷 土耳其节点", "🇦🇷 阿根廷节点"],
+      proxies: ["🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇬🇧 英国节点", "🇲🇾 马来西亚节点", "🇹🇷 土耳其节点", "🇦🇷 阿根廷节点", "✈ 手动切换", "♻️ 自动选择", "🎯 全球直连"],
     },	
     {
       "include-all": true,
@@ -22,6 +22,7 @@ function main(config) {
       name: "♻️ 自动选择",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
 	  {
       name: "🚀 GitHub",
@@ -74,6 +75,11 @@ function main(config) {
       proxies: ["🎯 全球直连", "🚀 节点选择", "🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇬🇧 英国节点", "🇲🇾 马来西亚节点", "🇹🇷 土耳其节点", "🇦🇷 阿根廷节点", "✈ 手动切换", "♻️ 自动选择", ],
     },
 	  {
+      name: "Ⓜ️ OneDrive",
+      type: "select",
+      proxies: ["🚀 节点选择", "🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇬🇧 英国节点", "🇲🇾 马来西亚节点", "🇹🇷 土耳其节点", "🇦🇷 阿根廷节点", "✈ 手动切换", "♻️ 自动选择", "🎯 全球直连"],
+    },
+	  {
       name: "Ⓜ️ 微软服务",
       type: "select",
       proxies: ["🎯 全球直连", "🚀 节点选择", "🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇬🇧 英国节点", "🇲🇾 马来西亚节点", "🇹🇷 土耳其节点", "🇦🇷 阿根廷节点", "✈ 手动切换", "♻️ 自动选择", ],
@@ -120,6 +126,7 @@ function main(config) {
       name: "🇭🇰 香港节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
     {
       "include-all": true,
@@ -128,6 +135,7 @@ function main(config) {
       name: "🇸🇬 新加坡节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -136,6 +144,7 @@ function main(config) {
       name: "🇹🇼 台湾节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
     {
       "include-all": true,
@@ -144,6 +153,7 @@ function main(config) {
       name: "🇯🇵 日本节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
     {
       "include-all": true,
@@ -152,6 +162,7 @@ function main(config) {
       name: "🇺🇸 美国节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -160,6 +171,7 @@ function main(config) {
       name: "🇬🇧 英国节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -168,6 +180,7 @@ function main(config) {
       name: "🇲🇾 马来西亚节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -176,6 +189,7 @@ function main(config) {
       name: "🇹🇷 土耳其节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     },
 	  {
       "include-all": true,
@@ -184,6 +198,7 @@ function main(config) {
       name: "🇦🇷 阿根廷节点",
       type: "url-test",
       interval: 300,
+	  tolerance: 50,
     }
   ];
   if (!config['rule-providers']) {
@@ -297,6 +312,14 @@ function main(config) {
 	Microsoft: {
       url: "https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list",
       path: "./ruleset/Microsoft.list",
+      behavior: "classical",
+      interval: 86400,
+      format: "text",
+      type: "http",
+    },
+	OneDrive: {
+      url: "https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OneDrive/OneDrive.list",
+      path: "./ruleset/OneDrive.list",
       behavior: "classical",
       interval: 86400,
       format: "text",
@@ -423,6 +446,7 @@ function main(config) {
     "RULE-SET,GoogleFCM,📢 谷歌FCM",
     "RULE-SET,Google,🔎 谷歌服务",
     "RULE-SET,Apple,🍎 苹果服务",
+	"RULE-SET,OneDrive,Ⓜ️ OneDrive",
     "RULE-SET,Microsoft,Ⓜ️ 微软服务",
     "RULE-SET,XiaoMi,🍘️ 小米服务",
     "RULE-SET,ProxyGFW,🚀 全球代理",
