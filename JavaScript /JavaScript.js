@@ -1,7 +1,7 @@
-// Mihomo Party覆写脚本
+// 覆写配置
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-17-11-33
+// 时间：2024-10-17-11-36
 function main(config) {
   config["proxy-groups"] = [
     {
