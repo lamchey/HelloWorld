@@ -25,6 +25,12 @@
 - [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
 
 - [mihomo-party-org/mihomo-party](https://github.com/mihomo-party-org/mihomo-party)
+  
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
+  
+- [stilleshan/subconverter](https://github.com/stilleshan/subconverter)
+  
+- [tindy2013/subconverter](https://github.com/tindy2013/subconverter)
 
 - [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
