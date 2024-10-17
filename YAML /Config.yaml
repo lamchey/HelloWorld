@@ -1,3 +1,7 @@
+// 覆写配置
+// 作者：https://github.com/lamchey
+// 项目地址：https://github.com/lamchey/HelloWorld
+// 时间：2024-10-17-12-07
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,8 +29,8 @@ proxy-groups:
     interval: 300
     tolerance: 50  
   - name: 🚀 GitHub
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -41,8 +45,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: 📲 Telegram
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -57,8 +61,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: 📹 YouTube
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -73,8 +77,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🐋 Docker
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -89,30 +93,30 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: 📺 Bahamut
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🇹🇼 台湾节点
       - ✈ 手动切换
       - ♻️ 自动选择
   - name: 💬 ChatGPT
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
       - 🇹🇼 台湾节点
       - 🇯🇵 日本节点
       - 🎯 全球直连
   - name: Ⓜ️ Copilot
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🇺🇸 美国节点
       - 🇸🇬 新加坡节点
       - 🇹🇼 台湾节点
       - 🇯🇵 日本节点
       - 🎯 全球直连
   - name: 📢 谷歌FCM
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -127,8 +131,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🔎 谷歌服务
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -143,8 +147,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: 🍎 苹果服务
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -158,8 +162,8 @@ proxy-groups:
       - ✈ 手动切换
       - ♻️ 自动选择
   - name: Ⓜ️ OneDrive
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -174,8 +178,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
   - name: Ⓜ️ 微软服务
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -189,22 +193,22 @@ proxy-groups:
       - ✈ 手动切换
       - ♻️ 自动选择      
   - name: 🍘️ 小米服务
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
       - 🇸🇬 新加坡节点
   - name: 🌍 国内媒体
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🎯 全球直连
       - 🇭🇰 香港节点
       - 🇹🇼 台湾节点
       - 🇸🇬 新加坡节点      
   - name: 🌍 国外媒体
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
       - 🇹🇼 台湾节点
@@ -222,8 +226,8 @@ proxy-groups:
     proxies:
       - REJECT
   - name: 🚀 全球代理
-      type: select
-      proxies: 
+    type: select
+    proxies: 
       - 🚀 节点选择
       - 🇭🇰 香港节点
       - 🇸🇬 新加坡节点
@@ -504,15 +508,17 @@ rule-providers:
     format: yaml
     type: http
 rules:
-    # 去广告规则
-    AND((RULE-SET,antiAD)(NOT((RULE-SET,antiADwhite))))⛔ 广告屏蔽 
-    
-    # 自定义直连规则
+  # 去广告规则
+  - "RULE-SET,antiADwhite,🎯 全球直连"
+  - "RULE-SET,antiAD,⛔ 广告屏蔽"
+
+  # 自定义直连规则
   - "RULE-SET,Custom_rules_Direct,🎯 全球直连"
-  
-    # 直连规则
-  - "RULE-SET,,Lan,🎯 全球直连"
-  - "RULE-SET,,Direct,🎯 全球直连"
+
+  # 直连规则
+  - "RULE-SET,Custom_rules_Direct,🎯 全球直连"
+  - "RULE-SET,Lan,🎯 全球直连"
+  - "RULE-SET,Direct,🎯 全球直连"
   - "RULE-SET,PT_Download,🎯 全球直连"
   - "RULE-SET,BT_Download,🎯 全球直连"
   - "RULE-SET,GoogleCN,🎯 全球直连"
