@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-20-21-11
+// 时间：2024-10-20-21-13
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -415,7 +415,7 @@ function main(config) {
     },
 	Custom_rules_Reject: {
       url: "https://ghp.ci/https://raw.githubusercontent.com/lamchey/HelloWorld/refs/heads/main/Rules/Reject.list",
-      path: "./ruleset/Custom_rules_Reject.yaml",
+      path: "./ruleset/Custom_rules_Reject.list",
       behavior: "classical",
       interval: 86400,
       format: "text",
