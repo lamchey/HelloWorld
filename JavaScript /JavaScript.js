@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-17-12-08
+// 时间：2024-10-20-21-11
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -413,11 +413,21 @@ function main(config) {
       format: "yaml",
       type: "http",
     },
+	Custom_rules_Reject: {
+      url: "https://ghp.ci/https://raw.githubusercontent.com/lamchey/HelloWorld/refs/heads/main/Rules/Reject.list",
+      path: "./ruleset/Custom_rules_Reject.yaml",
+      behavior: "classical",
+      interval: 86400,
+      format: "text",
+      type: "http",
+    },
+},
   });
 
   config["rules"] = [
     //去广告规则
     "AND,((RULE-SET,antiAD),(NOT,((RULE-SET,antiADwhite)))),⛔ 广告屏蔽", 
+    "RULE-SET,Custom_rules_Reject,⛔ 广告屏蔽",
 	  
     //自定义直连规则
     "RULE-SET,Custom_rules_Direct,🎯 全球直连",
