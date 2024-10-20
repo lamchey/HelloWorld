@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-20-21-13
+// 时间：2024-10-20-22-46
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -421,7 +421,6 @@ function main(config) {
       format: "text",
       type: "http",
     },
-},
   });
 
   config["rules"] = [
