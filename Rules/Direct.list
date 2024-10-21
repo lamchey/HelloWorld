@@ -1,13 +1,14 @@
 # NAME: Direct rules
 # AUTHOR: lamchey
 # REPO: https://github.com/lamchey/HelloWorld
-# UPDATED: 2024-10-18-15-34
+# UPDATED: 2024-10-21-12-19
 
 DOMAIN-SUFFIX,linudrive.cn
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,momoyu.cc
 DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,quickconnect.to
+DOMAIN-SUFFIX,synocommunity.com
 DOMAIN-SUFFIX,global.synologydownload.com
 DOMAIN-SUFFIX,api.codelife.cc
 DOMAIN-SUFFIX,iobit.com
