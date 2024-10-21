@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-20-22-46
+// 时间：2024-10-21-12-09
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -229,7 +229,15 @@ function main(config) {
       format: "text",
       type: "http",
     },
-	ChinaDomain: {
+	Synology: {
+      url: "https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Synology/Synology.list",
+      path: "./ruleset/Synology.list",
+      behavior: "classical",
+      interval: 86400,
+      format: "text",
+      type: "http",
+    },
+  ChinaDomain: {
       url: "https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/China/China.list",
       path: "./ruleset/ChinaDomain.list",
       behavior: "classical",
@@ -434,6 +442,7 @@ function main(config) {
     //直连规则
     "RULE-SET,Lan,🎯 全球直连",
     "RULE-SET,Direct,🎯 全球直连",
+    "RULE-SET,Synology,🎯 全球直连",
     "RULE-SET,PT_Download,🎯 全球直连",
     "RULE-SET,BT_Download,🎯 全球直连",
     "RULE-SET,GoogleCN,🎯 全球直连",
