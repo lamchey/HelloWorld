@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-22-10-24
+// 时间：2024-10-22-10-36
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -471,7 +471,7 @@ function main(config) {
     "RULE-SET,GoogleFCM,📢 谷歌FCM",
     "RULE-SET,Google,🔎 谷歌服务",
     "RULE-SET,Apple,🍎 苹果服务",
-	"RULE-SET,OneDrive,Ⓜ️ OneDrive",
+	  "RULE-SET,OneDrive,Ⓜ️ OneDrive",
     "RULE-SET,Microsoft,Ⓜ️ 微软服务",
     "RULE-SET,XiaoMi,🍘️ 小米服务",
     "RULE-SET,ProxyGFW,🛫 全球代理",
