@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-22-08-39
+// 时间：2024-10-22-10-24
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -110,7 +110,7 @@ function main(config) {
       proxies: ["REJECT"],
     },
 	  {
-      name: "🚀 全球代理",
+      name: "🛫 全球代理",
       type: "select",
       proxies: ["🚀 节点选择", "🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇬🇧 英国节点", "🇲🇾 马来西亚节点", "🇹🇷 土耳其节点", "🇦🇷 阿根廷节点", "✈ 手动切换", "♻️ 自动选择", "🎯 全球直连"],
     },
@@ -474,7 +474,7 @@ function main(config) {
 	"RULE-SET,OneDrive,Ⓜ️ OneDrive",
     "RULE-SET,Microsoft,Ⓜ️ 微软服务",
     "RULE-SET,XiaoMi,🍘️ 小米服务",
-    "RULE-SET,ProxyGFW,🚀 全球代理",
+    "RULE-SET,ProxyGFW,🛫 全球代理",
 
     //直连规则  
     "RULE-SET,ChinaIp,🎯 全球直连",
