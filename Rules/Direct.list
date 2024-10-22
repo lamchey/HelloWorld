@@ -1,7 +1,7 @@
 # NAME: Direct rules
 # AUTHOR: lamchey
 # REPO: https://github.com/lamchey/HelloWorld
-# UPDATED: 2024-10-22-19-51
+# UPDATED: 2024-10-22-19-58
 
 DOMAIN-SUFFIX,linudrive.cn
 DOMAIN-SUFFIX,linux.do
@@ -14,4 +14,5 @@ DOMAIN-SUFFIX,api.codelife.cc
 DOMAIN-SUFFIX,iobit.com
 DOMAIN-SUFFIX,hxrc.com
 DOMAIN-SUFFIX,ghp.ci
-DOMAIN-KEYWOED,88kanqiu
+DOMAIN-SUFFIX,88kanqiu.dog
+DOMAIN-KEYWORD,88kanqiu
