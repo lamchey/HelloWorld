@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-21-12-11
+// 时间：2024-10-22-08-39
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -100,6 +100,11 @@ function main(config) {
       proxies: ["🚀 节点选择", "🇭🇰 香港节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🇺🇸 美国节点", "🇬🇧 英国节点", "🇲🇾 马来西亚节点", "🇹🇷 土耳其节点", "🇦🇷 阿根廷节点", "✈ 手动切换", "♻️ 自动选择", "🎯 全球直连"],
     },
 	  {
+      name: "🍀 应用净化",
+      type: "select",
+      proxies: ["REJECT"],
+    },
+    {
       name: "⛔ 广告屏蔽",
       type: "select",
       proxies: ["REJECT"],
@@ -436,7 +441,7 @@ function main(config) {
     "AND,((RULE-SET,antiAD),(NOT,((RULE-SET,antiADwhite)))),⛔ 广告屏蔽", 
     
     //应用净化
-    "RULE-SET,Custom_rules_Reject,⛔ 广告屏蔽",
+    "RULE-SET,Custom_rules_Reject,🍀 应用净化",
 	  
     //自定义直连规则
     "RULE-SET,Custom_rules_Direct,🎯 全球直连",
