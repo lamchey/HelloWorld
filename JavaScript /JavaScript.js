@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-22-10-36
+// 时间：2024-10-24-14-26
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -52,12 +52,12 @@ function main(config) {
 	  {
       name: "💬 ChatGPT",
       type: "select",
-      proxies: ["🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🎯 全球直连"],
+      proxies: ["🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇺🇸 美国节点", "✈ 手动切换", "🎯 全球直连"],
     },
 	  {
       name: "Ⓜ️ Copilot",
       type: "select",
-      proxies: ["🇺🇸 美国节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇯🇵 日本节点", "🎯 全球直连"],
+      proxies: ["🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇹🇼 台湾节点", "🇺🇸 美国节点", "✈ 手动切换", "🎯 全球直连"],
     },
 	  {
       name: "📢 谷歌FCM",
