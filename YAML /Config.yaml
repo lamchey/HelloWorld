@@ -511,7 +511,7 @@ rule-providers:
     format: yaml
     type: http
 rules:
-  # 去广告规则
+  // 去广告规则
   - "AND,((RULE-SET,antiAD),(NOT,((RULE-SET,antiADwhite)))),⛔ 广告屏蔽"
 
   # 自定义直连规则
