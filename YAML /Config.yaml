@@ -511,13 +511,13 @@ rule-providers:
     format: yaml
     type: http
 rules:
-  // 去广告规则
-  - "AND,((RULE-SET,antiAD),(NOT,((RULE-SET,antiADwhite)))),⛔ 广告屏蔽"
-
-  # 自定义直连规则
+  
+  
+  - "RULE-SET,antiADwhite,🎯 全球直连"
+  - "RULE-SET,antiAD,⛔ 广告屏蔽"
   - "RULE-SET,Custom_rules_Direct,🎯 全球直连"
 
-  # 直连规则
+  
   - "RULE-SET,Lan,🎯 全球直连"
   - "RULE-SET,Direct,🎯 全球直连"
   - "RULE-SET,PT_Download,🎯 全球直连"
@@ -525,10 +525,10 @@ rules:
   - "RULE-SET,GoogleCN,🎯 全球直连"
   - "RULE-SET,ChinaDomain,🎯 全球直连"
   
-    # 自定义代理规则
+    
   - "DOMAIN-SUFFIX,oyunfor.com,🇹🇷 土耳其节点"
 
-    # 代理规则
+    
   - "RULE-SET,Docker,🐋 Docker"
   - "RULE-SET,GitHub,🚀 GitHub"
   - "RULE-SET,Telegram,📲 Telegram"
@@ -546,8 +546,8 @@ rules:
   - "RULE-SET,XiaoMi,🍘️ 小米服务"
   - "RULE-SET,ProxyGFW,🚀 全球代理"
 
-    # 直连规则  
+     
   - "RULE-SET,ChinaIp,🎯 全球直连"
   
-    # 兜底分流  
+     
   - "MATCH,🐟 漏网之鱼"
