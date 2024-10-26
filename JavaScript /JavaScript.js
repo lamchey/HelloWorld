@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-26-18-25
+// 时间：2024-10-26-18-41
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -102,12 +102,12 @@ function main(config) {
 	  {
       name: "🍀 应用净化",
       type: "select",
-      proxies: ["REJECT"],
+      proxies: ["REJECT-DROP"],
     },
     {
       name: "⛔ 广告屏蔽",
       type: "select",
-      proxies: ["REJECT"],
+      proxies: ["REJECT-DROP"],
     },
 	  {
       name: "🛫 全球代理",
