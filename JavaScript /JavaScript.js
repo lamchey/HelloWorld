@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-10-24-14-26
+// 时间：2024-10-26-18-25
 function main(config) {
   config["proxy-groups"] = [
     {
@@ -438,7 +438,8 @@ function main(config) {
 
   config["rules"] = [
     //去广告规则
-    "AND,((RULE-SET,antiAD),(NOT,((RULE-SET,antiADwhite)))),⛔ 广告屏蔽", 
+    "RULE-SET,antiADwhite,🎯 全球直连",
+    "RULE-SET,antiAD,⛔ 广告屏蔽", 
     
     //应用净化
     "RULE-SET,Custom_rules_Reject,🍀 应用净化",
