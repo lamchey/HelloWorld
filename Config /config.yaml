@@ -2,7 +2,7 @@ custom:
   enable_rule_generator: true
   overwrite_original_rules: true
   proxy_groups:
-    - {name: 🎯 全球直连, type: select, rule: DIRECT}
+    1- {name: 🎯 全球直连, type: select, rule: DIRECT}
 
     rulesets:
     - {ruleset: "Custom_rules_Direct:https://ghp.ci/https://raw.githubusercontent.com/lamchey/HelloWorld/refs/heads/main/Rules/Direct.list", group: "🎯 全球直连", interval: 86400}
