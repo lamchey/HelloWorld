@@ -1,6 +1,6 @@
 custom:
-  enable_rule_generator: true
-  overwrite_original_rules: false
+  enable_rule_generator: false
+  overwrite_original_rules: true
 
   proxy_groups:
   - {name: 🎯 全球直连, type: select, rule: DIRECT}
