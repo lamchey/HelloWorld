@@ -1,21 +1,22 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-11-20-14-43
+// 时间：2024-11-20-14-46
 function main(config) {
 
   if (!config['rule-providers']) {
     config['rule-providers'] = {};
   }
   config["rule-providers"] = Object.assign(config["rule-providers"], {
-    AWAvenueAds:
-    url:  https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml
-    path: ./ruleset/AWAvenueAds.yaml
-    behavior: domain
-    interval: 86400
-    format: yaml
-    type: http
-	antiAD: {
+    AWAvenueAds: {
+      url:  "https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml",
+      path: "./ruleset/AWAvenueAds.yaml",
+      behavior: "domain",
+      interval: 86400,
+      format: "yaml",
+      type: "http",
+    },
+	  antiAD: {
       url: "https://ghp.ci/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml",
       path: "./ruleset/anti-AD.yaml",
       behavior: "domain",
@@ -36,7 +37,7 @@ function main(config) {
   config["rules"] = [
     "RULE-SET,antiADwhite,DIRECT",
     "RULE-SET,AWAvenueAds,REJECT-NO-DROP", 
-    "RULE-SET,antiAD,REJECT-NO-DROP"， 
+    "RULE-SET,antiAD,REJECT-NO-DROP"
   ];
   return config;
 }
