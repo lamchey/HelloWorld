@@ -26,22 +26,12 @@ function main(config) {
       format: "yaml",
       type: "http",
     },
-	Custom_rules_Reject: {
-      url: "https://ghp.ci/https://raw.githubusercontent.com/lamchey/HelloWorld/refs/heads/main/Rules/Reject.list",
-      path: "./ruleset/Custom_rules_Reject.list",
-      behavior: "classical",
-      interval: 86400,
-      format: "text",
-      type: "http",
-    },
   });
 
   config["+rules"] = [
     "RULE-SET,antiADwhite,DIRECT",
     "RULE-SET,AWAvenueAds,REJECT-NO-DROP", 
     "RULE-SET,antiAD,REJECT-NO-DROP"， 
-    "RULE-SET,Custom_rules_Reject,REJECT-NO-DROP",
-    
   ];
   return config;
 }
