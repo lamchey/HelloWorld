@@ -1,9 +1,14 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-11-30-14-40
+// 时间：2024-11-20-14-43
 function main(config) {
-  AWAvenueAds:
+
+  if (!config['rule-providers']) {
+    config['rule-providers'] = {};
+  }
+  config["rule-providers"] = Object.assign(config["rule-providers"], {
+    AWAvenueAds:
     url:  https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml
     path: ./ruleset/AWAvenueAds.yaml
     behavior: domain
@@ -25,10 +30,10 @@ function main(config) {
       interval: 86400,
       format: "yaml",
       type: "http",
-    },
+    }
   });
 
-  config["+rules"] = [
+  config["rules"] = [
     "RULE-SET,antiADwhite,DIRECT",
     "RULE-SET,AWAvenueAds,REJECT-NO-DROP", 
     "RULE-SET,antiAD,REJECT-NO-DROP"， 
