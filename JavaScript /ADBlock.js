@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-11-30-14-37
+// 时间：2024-11-30-14-40
 function main(config) {
   AWAvenueAds:
     url:  https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml
