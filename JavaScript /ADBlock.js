@@ -1,7 +1,7 @@
 // 覆写脚本
 // 作者：https://github.com/lamchey
 // 项目地址：https://github.com/lamchey/HelloWorld
-// 时间：2024-11-20-14-46
+// 时间：2024-11-20-14-47
 function main(config) {
 
   if (!config['rule-providers']) {
@@ -34,7 +34,7 @@ function main(config) {
     }
   });
 
-  config["rules"] = [
+  config["+rules"] = [
     "RULE-SET,antiADwhite,DIRECT",
     "RULE-SET,AWAvenueAds,REJECT-NO-DROP", 
     "RULE-SET,antiAD,REJECT-NO-DROP"
