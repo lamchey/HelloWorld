@@ -1,6 +1,2 @@
-# NAME: Reject rules
-# AUTHOR: lamchey
-# REPO: https://github.com/lamchey/HelloWorld
-# UPDATED: 2024-10-20-20-40
-
 DOMAIN-SUFFIX,sentry.io
+DOMAIN,is.snssdk.com
