@@ -11,5 +11,5 @@ DOMAIN-SUFFIX,mtmt.tech
 DOMAIN-KEYWORD,yonghui
 DOMAIN-KEYWORD,bank
 DOMAIN,app-analytics-services.com
-DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,rcpxpt.com
+IP-CIDR,162.159.193.0/24,no-resolve
