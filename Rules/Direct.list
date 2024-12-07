@@ -12,6 +12,5 @@ DOMAIN-KEYWORD,yonghui
 DOMAIN-KEYWORD,bank
 DOMAIN-SUFFIX,rcpxpt.com
 DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,push.apple.com
-DOMAIN,wps.apple.com
+DOMAIN-SUFFIX,apple.com
 IP-CIDR,162.159.193.0/24,no-resolve
