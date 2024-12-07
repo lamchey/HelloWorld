@@ -15,4 +15,5 @@ DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,huya.com
+DOMAIN-SUFFIX,hupu.com
 IP-CIDR,162.159.193.0/24,no-resolve
