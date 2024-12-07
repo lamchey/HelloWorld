@@ -13,4 +13,6 @@ DOMAIN-KEYWORD,bank
 DOMAIN-SUFFIX,rcpxpt.com
 DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,msstatic.com
+DOMAIN-SUFFIX,huya.com
 IP-CIDR,162.159.193.0/24,no-resolve
