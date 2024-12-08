@@ -1,32 +1,48 @@
 # 覆写配置
 # 作者：https://github.com/lamchey
 # 项目地址：https://github.com/lamchey/HelloWorld
-# 时间：2024-11-26-10-09
+# 时间：2024-12-08-21-54
 
 rule-providers:
-  AWAvenueAds:
-    url:  https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml
-    path: ./ruleset/AWAvenueAds.yaml
-    behavior: domain
+  AdGuardDirect:
+    url:  https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/Direct/Direct.list
+    path: ./ruleset/AdGuardDirect.yaml
+    behavior: classical
     interval: 86400
     format: yaml
     type: http
-  antiAD:
-    url: https://ghp.ci/https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/mihomo.mrs
-    path: ./ruleset/anti-AD.mrs
-    behavior: domain
-    interval: 86400
-    format: mrs
-    type: http
-  antiADwhite:
-    url: https://ghp.ci/https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-for-clash.yaml
-    path: ./ruleset/anti-AD-white.yaml
-    behavior: domain
+  AdGuardSDNSFilter:
+    url:  https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list
+    path: ./ruleset/AdGuardDirect.yaml
+    behavior: classical
     interval: 86400
     format: yaml
     type: http
+  #AWAvenueAds:
+    #url:  https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml
+    #path: ./ruleset/AWAvenueAds.yaml
+    #behavior: domain
+    #interval: 86400
+    #format: yaml
+    #type: http
+  #antiAD:
+    #url: https://ghp.ci/https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/mihomo.mrs
+    #path: ./ruleset/anti-AD.mrs
+    #behavior: domain
+    #interval: 86400
+    #format: mrs
+    #type: http
+  #antiADwhite:
+    #url: https://ghp.ci/https://raw.githubusercontent.com/privacy-protection-tools/dead-horse/master/anti-ad-white-for-clash.yaml
+    #path: ./ruleset/anti-AD-white.yaml
+    #behavior: domain
+    #interval: 86400
+    #format: yaml
+    #type: http
 
 +rules:
-  - "RULE-SET,antiADwhite,DIRECT"
-  - "RULE-SET,AWAvenueAds,REJECT-DROP"
-  - "RULE-SET,antiAD,REJECT-DROP"
+  - "RULE-SET,AdGuardDirect,DIRECT"
+  - "RULE-SET,AdGuardSDNSFilter,REJECT-DROP"
+  #- "RULE-SET,antiADwhite,DIRECT"
+  #- "RULE-SET,AWAvenueAds,REJECT-DROP"
+  #- "RULE-SET,antiAD,REJECT-DROP"
