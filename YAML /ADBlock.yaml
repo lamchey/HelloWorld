@@ -1,22 +1,22 @@
 # 覆写配置
 # 作者：https://github.com/lamchey
 # 项目地址：https://github.com/lamchey/HelloWorld
-# 时间：2024-12-08-21-59
+# 时间：2024-12-08-22-04
 
 rule-providers:
   AdGuardDirect:
     url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/Direct/Direct.list
-    path: ./ruleset/AdGuardDirect.yaml
+    path: ./ruleset/AdGuardDirect.list
     behavior: classical
     interval: 86400
-    format: yaml
+    format: text
     type: http
   AdGuardSDNSFilter:
     url: https://ghp.ci/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list
-    path: ./ruleset/AdGuardSDNSFilter.yaml
+    path: ./ruleset/AdGuardSDNSFilter.list
     behavior: classical
     interval: 86400
-    format: yaml
+    format: text
     type: http
   #AWAvenueAds:
     #url: https://ghp.ci/https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml
