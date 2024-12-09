@@ -6,7 +6,7 @@
 rule-providers:
   AdGuardDirect:
     url: https://ghp.ci/https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/AdGuardSDNSFilter/Direct/Direct_OCD_Domain.mrs
-    path: ./ruleset/AdGuardDirect.list
+    path: ./ruleset/AdGuardDirect.mrs
     behavior: domain
     interval: 86400
     format: mrs
