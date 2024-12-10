@@ -1,4 +1,5 @@
 DOMAIN-SUFFIX,sentry.io
 DOMAIN,is.snssdk.com
 DOMAIN,app-analytics-services.com
+DOMAIN,m.360buyimg.com
 IP-CIDR,95.161.76.100/32,no-resolve
