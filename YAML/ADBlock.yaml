@@ -1,22 +1,22 @@
 # 覆写配置
 # 作者：https://github.com/lamchey
 # 项目地址：https://github.com/lamchey/HelloWorld
-# 时间：2025-08-01-11-46
+# 时间：2025-08-01-12-01
 
 rule-providers:
   FixDirect:
-    url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/Direct/Direct_OCD_Domain.mrs
-    path: ./ruleset/FixDirect.mrs
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.yaml
+    path: ./ruleset/FixDirect.yaml
     behavior: domain
     interval: 86400
-    format: mrs
+    format: yaml
     type: http
   Advertising:
-    url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/Advertising/Advertising_OCD_Domain.mrs
-    path: ./ruleset/Advertising.mrs
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising_Classical.yaml
+    path: ./ruleset/Advertising.yaml
     behavior: domain
     interval: 86400
-    format: mrs
+    format: yaml
     type: http
   # AWAvenueAds:
     # url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main//Filters/AWAvenue-Ads-Rule-Clash.yaml
