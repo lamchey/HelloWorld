@@ -1,17 +1,17 @@
 # 覆写配置
 # 作者：https://github.com/lamchey
 # 项目地址：https://github.com/lamchey/HelloWorld
-# 时间：2025-08-01-11-10
+# 时间：2025-08-01-11-46
 
 rule-providers:
-  Direct:
+  FixDirect:
     url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/Direct/Direct_OCD_Domain.mrs
-    path: ./ruleset/AdGuardDirect.mrs
+    path: ./ruleset/FixDirect.mrs
     behavior: domain
     interval: 86400
     format: mrs
     type: http
-  广告:
+  Advertising:
     url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/Advertising/Advertising_OCD_Domain.mrs
     path: ./ruleset/Advertising.mrs
     behavior: domain
@@ -41,7 +41,7 @@ rule-providers:
     # type: http
 
 +rules:
-  - "RULE-SET,AdGuardDirect,DIRECT"
+  - "RULE-SET,FixDirect,DIRECT"
   - "RULE-SET,Advertising,REJECT-DROP"
   # - "RULE-SET,antiADwhite,DIRECT"
   # - "RULE-SET,AWAvenueAds,REJECT-DROP"
