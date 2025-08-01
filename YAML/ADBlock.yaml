@@ -4,16 +4,16 @@
 # 时间：2025-08-01-11-10
 
 rule-providers:
-  AdGuardDirect:
-    url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/AdGuardSDNSFilter/Direct/Direct_OCD_Domain.mrs
+  Direct:
+    url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/Direct/Direct_OCD_Domain.mrs
     path: ./ruleset/AdGuardDirect.mrs
     behavior: domain
     interval: 86400
     format: mrs
     type: http
-  AdGuardReject:
-    url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter_OCD_Domain.mrs
-    path: ./ruleset/AdGuardReject.mrs
+  广告:
+    url: https://raw.githubusercontent.com/peiyingyao/Rule-for-OCD/refs/heads/master/rule/Clash/Advertising/Advertising_OCD_Domain.mrs
+    path: ./ruleset/Advertising.mrs
     behavior: domain
     interval: 86400
     format: mrs
@@ -42,7 +42,7 @@ rule-providers:
 
 +rules:
   - "RULE-SET,AdGuardDirect,DIRECT"
-  - "RULE-SET,AdGuardReject,REJECT-DROP"
+  - "RULE-SET,Advertising,REJECT-DROP"
   # - "RULE-SET,antiADwhite,DIRECT"
   # - "RULE-SET,AWAvenueAds,REJECT-DROP"
   # - "RULE-SET,antiAD,REJECT-DROP"
