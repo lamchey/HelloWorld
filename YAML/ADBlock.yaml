@@ -1,7 +1,7 @@
 # 覆写配置
 # 作者：https://github.com/lamchey
 # 项目地址：https://github.com/lamchey/HelloWorld
-# 时间：2025-08-01-12-01
+# 时间：2025-08-03-20-46
 
 rule-providers:
   FixDirect:
@@ -12,9 +12,9 @@ rule-providers:
     format: yaml
     type: http
   Advertising:
-    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Advertising/Advertising_Classical.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite_Classical.yaml
     path: ./ruleset/Advertising.yaml
-    behavior: domain
+    behavior: classical
     interval: 86400
     format: yaml
     type: http
