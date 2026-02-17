@@ -1,7 +1,7 @@
 # 覆写配置
 # 作者：https://github.com/lamchey
 # 项目地址：https://github.com/lamchey/HelloWorld
-# 时间：2026-02-17-11-31
+# 时间：2026-02-17-11-36
 
 rule-providers:
   SelfDirect:
@@ -45,6 +45,6 @@ rule-providers:
   - "RULE-SET,SelfDirect,DIRECT"
   - "RULE-SET,FixDirect,DIRECT"
   # 屏蔽规则
-  - "RULE-SET,SelfReject,REJECT-NO-DROP"
-  - "RULE-SET,BlockHttpDNS,REJECT-NO-DROP"
-  - "RULE-SET,Advertising,REJECT-NO-DROP"
+  - "RULE-SET,SelfReject,REJECT-DROP"
+  - "RULE-SET,BlockHttpDNS,REJECT-DROP"
+  - "RULE-SET,Advertising,REJECT-DROP"
