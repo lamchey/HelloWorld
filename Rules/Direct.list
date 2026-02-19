@@ -2,7 +2,7 @@ DOMAIN-SUFFIX,linudrive.cn
 DOMAIN-KEYWORD,lamchey
 DOMAIN-KEYWORD,ntp
 DOMAIN,time.nist.gov
-DOMAIN,ocsp2.apple.com
+DOMAIN-KEYWORD,apple
 DOMAIN-SUFFIX,momoyu.cc
 DOMAIN-SUFFIX,api.codelife.cc
 DOMAIN,api.lrc.cx
