@@ -1,5 +1,6 @@
 DOMAIN-SUFFIX,sentry.io
 DOMAIN,app-analytics-services.com
+DOMAIN,mon.zijieapi.com
 IP-CIDR,95.161.76.100/32,no-resolve
 #小翼管家app开屏广告
 DOMAIN-SUFFIX,ott4china.com
